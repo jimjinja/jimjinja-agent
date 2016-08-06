@@ -1,6 +1,6 @@
 exports.takePicture = function(params, cb) {
   // Set filename and option
-  var imgFilename = __dirname + "/../../pictures/" + params.filename;
+  var imgFilename = __dirname + "/pictures/" + params.filename;
   var option = [ '-o', imgFilename ];
 
   // Take a picture
