@@ -1,0 +1,19 @@
+{
+  "terminal-play-audio_1.1.1": {
+    "type": "in_audio",
+    "name": "Playing audio on terminal"
+  },
+  "gpio-led-on_2.1.1": {
+    "type": "gpio_high",
+    "name": "Change LED On on GPIO"
+  },
+  "gpio-led-off_2.2.1": {
+    "type": "gpio_low",
+    "name": "Change LED Off on GPIO"
+  },
+  "terminal-take-picture_3.1.1": {
+    "type": "in_camera",
+    "name": "Take a picture on terminal"
+  }
+}
+

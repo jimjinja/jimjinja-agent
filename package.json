@@ -1,0 +1,29 @@
+{
+  "name": "jimjinja-agent",
+  "version": "0.1.4",
+  "description": "IoT based Home automation tool in Node.js with Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimjinja/jimjinja-agent.git"
+  },
+  "keywords": [
+    "jimjinja",
+    "raspberry pi",
+    "home automation"
+  ],
+  "author": "Jingun Jung <koreabigname@gmail.com> (http://www.koreabigname.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^2.0.1",
+    "date-utils": "^1.2.21",
+    "request": "^2.74.0",
+    "rpio": "^0.9.11",
+    "socket.io-client": "^1.4.8",
+    "socket.io-client-cookies-headers": "^0.4.2",
+    "socket.io-stream": "^0.9.0"
+  }
+}
